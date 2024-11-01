@@ -1,0 +1,9 @@
+numpy
+matplotlib
+panda
+statsmodels
+sklearn
+seaborn
+scipy
+datetime
+plotly
