@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Dynamic_electricity_price',                    # Name of your package
-    version='0.1',                           # Version of your package
-    packages=find_packages(where='src'),     # Directories to include as packages
-    package_dir={'': 'src'},                 # Base directory for packages
-    install_requires=[                       # List of dependencies
+    name='Dynamic_electricity_price',
+    version='0.1',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
+    install_requires=[ 
         'numpy',
         'pandas',
         'scikit-learn',
@@ -18,6 +18,6 @@ setup(
         'datetime',
         'plotly'
     ],
-    author='Aersi A.',                      # Author of the package
-    description='A machine learning project for predicting dynamic electricity prices',  # Short description
+    author='Aersi A.', 
+    description='A machine learning project for predicting dynamic electricity prices',
 )
